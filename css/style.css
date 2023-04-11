@@ -8,6 +8,7 @@
     background:url('../img/logo.png') no-repeat;
     background-size:100% 100%;
     vertical-align: middle;
+    overflow: hidden;
 }
 .page .page-title{
 	max-width:840px !important;
