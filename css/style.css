@@ -5,7 +5,7 @@
     content:'小冷的博客，一起来学知识吧！';
     width: 3rem;
     height:2.4rem;
-    background:url('../img/logo.png') no-repeat;
+    /* background:url('../img/logo.png') no-repeat; */
     background-size:100% 100%;
     vertical-align: middle;
     overflow: hidden;
