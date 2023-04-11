@@ -4,7 +4,7 @@
  * @Author: doomwatcher 冷环渊
  * @Date: 2023-04-12 00:42:27
  * @LastEditors: doomwatcher 冷环渊
- * @LastEditTime: 2023-04-12 03:26:27
+ * @LastEditTime: 2023-04-12 03:35:09
  */
 /*
 if(top.location!==self.location){
@@ -55,7 +55,7 @@ function vueSidebarShow() {
 }
 
 function loadSidebar(hrefTxt) {	
-	var sidebars = document.getElementsByClassName("sidebar");	var divNode = document.createElement("div");divNode.setAttribute("style" , "text-align: center; padding: 10px;");divNode.innerHTML = '<a href="' + hrefTxt + '" target="_blank"><img src="/img/sidebarCode.png"></a>';
+	var sidebars = document.getElementsByClassName("sidebar");	var divNode = document.createElement("div");divNode.setAttribute("style" , "text-align: center; padding: 10px;");divNode.innerHTML = '<a href="' +""+ '" target="_blank"><img src="/img/sidebarCode.png" width="280px" height="140px"></a>';
 	console.log(sidebars)
 	sidebars[0].insertBefore(divNode , sidebars[0].childNodes[0]);
 	var e = document.getElementsByClassName("hide");if(e[1])e[1].remove();
