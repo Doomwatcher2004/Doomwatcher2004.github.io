@@ -4,7 +4,7 @@
  * @Author: doomwatcher 冷环渊
  * @Date: 2023-04-12 00:42:27
  * @LastEditors: doomwatcher 冷环渊
- * @LastEditTime: 2023-04-12 03:35:09
+ * @LastEditTime: 2023-04-12 03:50:45
  */
 /*
 if(top.location!==self.location){
@@ -44,23 +44,23 @@ Element.prototype.appendChild = function() {
 };
 
 
-var _hrefs = "https://www.aliyun.com/minisite/goods?taskPkg=1111ydsrwb&pkgSid=11811&userCode=goqhbyn3";
-function vueSidebarShow() {
-	var windowWidth = document.body.clientWidth || window.innerWidth;
-	if(windowWidth > 760){
+// var _hrefs = "https://www.aliyun.com/minisite/goods?taskPkg=1111ydsrwb&pkgSid=11811&userCode=goqhbyn3";
+// function vueSidebarShow() {
+// 	var windowWidth = document.body.clientWidth || window.innerWidth;
+// 	if(windowWidth > 760){
 	
-		loadSidebar(_hrefs);
-	}
+// 		loadSidebar(_hrefs);
+// 	}
 
-}
+// }
 
-function loadSidebar(hrefTxt) {	
-	var sidebars = document.getElementsByClassName("sidebar");	var divNode = document.createElement("div");divNode.setAttribute("style" , "text-align: center; padding: 10px;");divNode.innerHTML = '<a href="' +""+ '" target="_blank"><img src="/img/sidebarCode.png" width="280px" height="140px"></a>';
-	console.log(sidebars)
-	sidebars[0].insertBefore(divNode , sidebars[0].childNodes[0]);
-	var e = document.getElementsByClassName("hide");if(e[1])e[1].remove();
-}
+// function loadSidebar(hrefTxt) {	
+// 	var sidebars = document.getElementsByClassName("sidebar");	var divNode = document.createElement("div");divNode.setAttribute("style" , "text-align: center; padding: 10px;");divNode.innerHTML = '<a href="' +""+ '" target="_blank"><img src="/img/sidebarCode.png" width="280px" height="140px"></a>';
+// 	console.log(sidebars)
+// 	sidebars[0].insertBefore(divNode , sidebars[0].childNodes[0]);
+// 	var e = document.getElementsByClassName("hide");if(e[1])e[1].remove();
+// }
 
 
-setTimeout("vueSidebarShow()",1000)
+// setTimeout("vueSidebarShow()",1000)
 
